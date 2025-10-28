@@ -7,7 +7,7 @@ public class Vehicle {
     private int numberOfPassengers;
     private int cargoCapacity;
     private int fuelCapacity;
-//    private ArrayList<Wheel> wheels ;
+    private ArrayList<Wheel> wheels ;
 
 
     public String getColor() {
