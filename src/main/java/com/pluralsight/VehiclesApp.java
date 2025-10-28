@@ -27,5 +27,7 @@ public class VehiclesApp {
         System.out.println(flyingCar);
         System.out.println(bigRig);
         System.out.println(fastCar);
+        flyingCar.getColor();
+        System.out.println(flyingCar.getColor());
     }
 }
