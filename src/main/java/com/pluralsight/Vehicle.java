@@ -9,6 +9,17 @@ public class Vehicle {
     private int fuelCapacity;
     private ArrayList<Wheel> wheels ;
 
+    public Vehicle(){
+
+
+    }
+    public Vehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, ArrayList<Wheel> wheels) {
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+        this.wheels = wheels;
+    }
 
     public String getColor() {
         return color;

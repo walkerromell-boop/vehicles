@@ -1,9 +1,11 @@
 package com.pluralsight;
 
+import java.util.ArrayList;
+
 public class VehiclesApp {
     public static void main(String[] args) {
 
-        Moped slowride = new Moped();
+        Moped slowride = new Moped("Red",2,0,5, new ArrayList<Wheel>());
         slowride.setColor("orange");
         slowride.setFuelCapacity(2);
 
@@ -30,4 +32,9 @@ public class VehiclesApp {
         flyingCar.getColor();
         System.out.println(flyingCar.getColor());
     }
+
+
+
+
+
 }
